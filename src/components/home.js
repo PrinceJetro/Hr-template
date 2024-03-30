@@ -36,7 +36,7 @@ export default function Home(){
 
                 <div className="welcome row">
                     <div className="col-sm-6 left p-2">
-                        <h3 className="text-center">HR <span className="text-primary">Consult!</span></h3>
+                        <h3 className="text-center">HR <span >Consult!</span></h3>
                         <p className="believe">We believe in the value that our functions add to a business. We feel that this specialist part of HR is often unrecognised for its contribution to the profitability and success of a business.</p>
                         <Icon/>
                     </div>

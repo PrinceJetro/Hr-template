@@ -8,7 +8,7 @@ export default function Featured(){
         <div className="featured_jobs row">
         <div className="col-sm-4">
             <h3>{item.title}</h3>
-            <p className="company"> <i className="fa fa-google"></i> {item.company} <span class={`badge badge-${item.color}`}>{item.type}</span> </p>
+            <p className="company"> <i className={item.logo}></i> {item.company} <span class={`badge badge-${item.color}`}>{item.type}</span> </p>
         </div>
         <div  className="col-sm-4">
             <h1 className="location"><i className="fa fa-map-marker mr-2"></i> {item.location}</h1>
