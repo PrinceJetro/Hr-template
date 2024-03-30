@@ -1,0 +1,44 @@
+.featured_jobs{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.featured_jobs h3{
+    color: #00ccff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.featured_jobs .company{
+    color: rgb(0, 204, 255);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.featured_jobs .company i{
+    color: grey;
+    margin: 5px;
+}
+
+.featured_jobs .company .btn{
+    font-size:  15px;;
+}
+
+.featured_jobs .location{
+    color: rgb(158, 158, 158);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.featured_jobs .apply{
+    border: 1px solid rgb(0, 204, 255);
+    color: rgb(0, 204, 255);
+}
+
+.featured_jobs .apply a{
+    color: rgb(0, 204, 255);
+}

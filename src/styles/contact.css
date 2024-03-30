@@ -1,0 +1,114 @@
+.contact .intro{
+    background-image: url("../images/map_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contact .intro h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.reach_us_contact{
+    margin-bottom: 10px;
+}
+
+.locations_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+
+.locations_div .location{
+    width: 22%;
+    margin: 30px;
+}
+
+@media screen and (max-width: 540px){
+    .locations_div .location{
+        width: 100%;
+        margin: 15px;
+    }
+    .conclusion{
+        margin-top: 45px;
+    }
+}
+
+.locations_div .location img{
+    width: 100%;
+    height: 45%;
+    margin-bottom: 20px;
+}
+
+.locations_div .location .location_header{
+    color: rgb(34, 54, 69);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.locations_div .location .street, .locations_div .location a {
+    color: rgba(34, 54, 69, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.conclusion{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+@media screen and (min-width: 540px){
+    .conclusion div{
+        width: 55%;
+    }
+}
+
+.conclusion h5{
+    color: rgb(34, 54, 69);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.conclusion h1{
+    color: rgb(34, 54, 69);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.conclusion h1 span{
+    color: rgb(183, 50, 53);
+}
+
+.conclusion p{
+    font-size: 18px;
+    font-style: 400;
+    line-height: 27px;
+}
+
+.conclusion .btn{
+    background-color: rgb(184, 51, 54);
+    color: white;
+    padding-bottom: 24px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 24px;
+}

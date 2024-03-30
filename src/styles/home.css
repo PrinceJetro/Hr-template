@@ -1,0 +1,165 @@
+.body{
+  margin: 0;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.head img{
+  height: 75px;
+  margin: 5px;
+  width: 120px;
+}
+
+.hr_consult{
+  background-image: url("../images/office.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:white
+}
+
+.hr_consult .div1{
+  width: 55%;
+}
+
+.hr_consult h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 20px;
+  font-size: 70px;
+}
+
+.hr_consult h5{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 24px
+}
+@media screen and (max-width: 480px){
+  .hr_consult .div1{
+    width: 100%;
+  } 
+  .hr_consult h1{
+    font-size: 45px;
+  }
+  .hr_consult h5{
+    font-size: 16px;
+  } 
+}
+
+.hr_consult .div2 .btn{
+  padding: 20px;
+  margin: 10px;
+}
+
+.hr_consult .div2 .btn-light a{
+  padding: 20px;
+  margin: 10px;
+  color: black;
+}
+
+.welcome .left{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.welcome .div1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome  h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.welcome .believe{
+  color: rgb(128, 128, 128);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.welcome .right img{
+  width: 100%;
+}
+
+.testimonnial_header, .featured_header {
+  text-align: center;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  margin-top:50px ;
+  margin-bottom: 20px;
+}
+
+
+.reach_us{
+  background-image: linear-gradient(to right, purple , rgb(62, 62, 201));
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.reach_us div{
+  width: 30%;
+}
+
+.reach_us div h3{
+  color: #55bce7;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 2px 0 1px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.reach_us div p{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  line-height: 40px;
+  overflow-wrap: break-word;
+  font-size: 28px;
+  font-weight: 300;
+  margin: 2px 0 1px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 540px){
+  .reach_us div{
+    width: 100%;
+  }
+  }

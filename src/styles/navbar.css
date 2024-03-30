@@ -1,0 +1,19 @@
+nav{
+  background-color: white;
+  position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Stick to the top of the viewport */
+}
+
+@media screen and (min-width: 480px){
+  .navbar-nav a{
+    margin-right: 20%;
+  }
+  nav .active{
+    margin-left: 150%;
+  }
+}
+
+nav button{
+  margin: auto;
+}

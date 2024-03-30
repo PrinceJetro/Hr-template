@@ -1,0 +1,14 @@
+.icon_list i{
+    font-size: 30px;
+    color: rgba(31, 35, 43, 0.1);
+}
+
+.icon_list .number{
+    font-size: 30px;
+    font-weight: 600;
+    color: #55bce7;
+}
+
+.icon_list .description{
+    font-size: 16px;
+}
